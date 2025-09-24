@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agricultura Solidária</title>
+    <link rel="stylesheet" href="estilos/style.css" />
+    <link rel="stylesheet" href="estilos/cadastro.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      .formulario {
+        margin: 4em;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- O HEADER REUTILIZAVEL AQUI -->
+    <header></header>
+
+    <main class="cadastro">
+      <form action="#" class="formulario">
+        <h2>Login</h2>
+        <div class="input-container">
+          <label for="usu-email">E-mail:</label>
+          <input type="email" name="usu-email" id="usu-email" />
+        </div>
+        <div class="input-container">
+          <label for="usu-senha">Senha:</label>
+          <input type="password" name="usu-senha" id="usu-senha" />
+        </div>
+
+        <p class="esqueci-senha">
+          <a href="forgotpassword.html">Esqueci a senha</a>
+        </p>
+        <div class="botao-cadastro">
+          <input type="button" value="Entrar" />
+        </div>
+        <p>Não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>
+      </form>
+    </main>
+    <footer>
+      <p>&copy; Agricultura Solidária 2025</p>
+    </footer>
+
+    <script type="module" src="js/header.js"></script>
+    <script type="module" src="js/cadastro-login.js"></script>
+  </body>
+</html>

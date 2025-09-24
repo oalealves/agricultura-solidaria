@@ -1,0 +1,120 @@
+.produtos-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2em 2em;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  padding: 5em;
+}
+
+.produto-card {
+  box-shadow: 0px 2px 4px 2px #00000029;
+  background-color: var(--branco);
+  width: 15em;
+}
+
+.produto-descricao {
+  padding: 1em 2em 1em 0.8em;
+  /* shorthand: top right bottom left */
+}
+
+.produto-card p {
+  font-size: 0.9em;
+  padding-bottom: 0.7em;
+}
+
+.produto-nome {
+  font-size: 1.8em;
+  font-weight: 400;
+  padding-bottom: 0.5em;
+  text-transform: capitalize;
+}
+
+.produto-card img {
+  width: 100%;
+}
+
+.botao-adicionar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1em;
+}
+
+.botao-adicionar button {
+  width: 90%;
+  text-align: center;
+  outline: 0;
+  border: 0;
+  background-color: var(--verde-claro);
+  color: var(--branco);
+  font-size: 1em;
+  font-weight: 600;
+  padding: 0.8em;
+  cursor: pointer;
+}
+
+.botao-adicionar a {
+  text-decoration: none;
+  color: white;
+}
+
+.actived-link li {
+  color: #053b06;
+}
+
+.itens-confirm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1;
+  gap: 10px;
+  margin-bottom: 1.5em;
+}
+
+.itens-confirm img {
+  width: 400px;
+  height: 300px;
+  padding-top: 30px;
+}
+
+.itens-confirm a {
+  text-align: center;
+  outline: 0;
+  border: 0;
+  background-color: var(--verde-claro);
+  color: var(--branco);
+  font-size: 1em;
+  font-weight: 600;
+  padding: 0.8em;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.itens-confirm input {
+  font-size: 1.5em;
+}
+
+.checkmark {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.checkmark i {
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .itens-confirm img {
+    width: 80%;
+  }
+}

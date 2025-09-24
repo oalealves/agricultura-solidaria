@@ -1,0 +1,116 @@
+.cadastro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/agricultura-bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.formulario {
+  width: 25em;
+  background-color: var(--verde-claro);
+  color: var(--branco);
+  padding: 2em;
+  margin: 2.7em 0;
+  border-radius: 2em;
+  text-align: center;
+}
+
+.formulario h2 {
+  font-size: 2em;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 70%;
+  padding-bottom: 1em;
+  text-align: left;
+}
+
+.input-container input {
+  outline: 0;
+  border: 2px solid transparent;
+  border-radius: 0.3em;
+  padding: 0.5em;
+}
+
+.botao-cadastro input {
+  width: 70%;
+  outline: 0;
+  background-color: var(--branco);
+  color: var(--verde-claro);
+  border: 0;
+  padding: 0.5em;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 0.3em;
+  margin: 1em 0;
+  transition: all 0.2s ease;
+}
+
+.botao-cadastro input:hover {
+  background-color: var(--verde-escuro);
+  color: var(--branco);
+}
+
+.botao-forgot input {
+  width: 70%;
+  outline: 0;
+  background-color: var(--branco);
+  color: var(--verde-claro);
+  border: 0;
+  padding: 0.5em;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 0.3em;
+  margin: 1em 0;
+  transition: all 0.2s ease;
+}
+
+.botao-forgot input:hover {
+  background-color: var(--verde-escuro);
+  color: var(--branco);
+}
+
+.formulario p > a {
+  text-decoration: none;
+  color: var(--verde-escuro);
+}
+
+.esqueci-senha {
+  color: var(--verde-escuro);
+  cursor: pointer;
+}
+
+.esqueci-senha:hover {
+  text-decoration: underline;
+}
+
+.forgot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/agricultura-bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.forgot a {
+  color: #053b06;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+  .formulario {
+    width: 90%;
+  }
+
+  .input-container {
+    width: 100%;
+  }
+}

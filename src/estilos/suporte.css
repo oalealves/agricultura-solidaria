@@ -1,0 +1,33 @@
+.contatos i {
+  font-size: 1.5em;
+  padding-right: 1em;
+  padding-bottom: 2em;
+}
+
+.contatos span {
+  background-color: rgba(204, 204, 204, 0.637);
+  padding: 0.5em;
+  border-radius: 1em;
+  user-select: none;
+  height: fit-content;
+}
+
+.actived-link li {
+  color: #053b06;
+}
+
+@media screen and (max-width: 880px) {
+  .contatos div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-bottom: 2em;
+  }
+
+  .contatos i {
+    padding-bottom: 0;
+    font-size: 2.5em;
+    text-align: center;
+  }
+}

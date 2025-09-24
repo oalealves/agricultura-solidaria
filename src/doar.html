@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agricultura Solidária</title>
+    <link rel="stylesheet" href="estilos/style.css" />
+    <link rel="stylesheet" href="estilos/doacoes.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- O HEADER REUTILIZAVEL AQUI -->
+    <header></header>
+
+    <main>
+      <div class="titulos-container">
+        <h1 class="subtitulo">Agricultura Solidária</h1>
+      </div>
+
+      <section>
+        <h2>Nos ajude com sua doação!</h2>
+        <p>
+          Preencha o formulário abaixo, e você receberá o código da doação no
+          seu email, com o restante das informações.
+        </p>
+        <form action="#" class="doacao-formulario">
+          <div>
+            <label for="doacao-alimento">Qual alimento deseja doar?</label>
+            <select name="doacao-alimento" id="doacao-alimento" required>
+              <option value="" selected disabled>Selecione...</option>
+            </select>
+
+            <!-- Aparece quando o usuario escolher um alimento fora da lista -->
+            <label for="doacao-alimento-novo" id="label-alimento-novo" hidden>Escreva o nome do alimento:</label>
+            <input type="text" id="doacao-alimento-novo" hidden>
+          </div>
+
+          <div>
+            <label for="doacao-qts">Qual a quantidade?</label>
+            <input type="number" name="doacao-qts" id="doacao-qts" min="1" required/>
+            <select name="unidade-medida" id="unidade-medida" style="width: 100px;" required>
+              <option value="kilo">kg</option>
+              <option value="unidade">unidade</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="doacao-validade">Qual a data de validade?</label>
+            <input type="date" name="doacao-validade" id="doacao-validade" required/>
+          </div>
+
+          <button type="submit"><a href="doacoes.html">Enviar</a></button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; Agricultura Solidária 2025</p>
+    </footer>
+
+    <script type="module" src="js/header.js"></script>
+    <script type="module" src="js/doar.js"></script>
+  </body>
+</html>

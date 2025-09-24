@@ -1,0 +1,104 @@
+section {
+  padding: 2em;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 1.3em;
+}
+
+.usu-alimentos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3em;
+  margin-top: 3em;
+}
+
+.alimentos-card {
+  background-color: var(--cinza-claro);
+  box-shadow: 2px 3px 2px 2px rgba(0, 0, 0, 0.274);
+  width: 300px;
+  line-height: 3em;
+  font-size: 1.1em;
+  border-radius: 20px;
+  padding: 1em;
+}
+
+.alimentos-card h3 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.alimentos-card i {
+  border: 1px solid gray;
+  padding: 5px;
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+  font-size: 13px;
+}
+
+.doacao-formulario div {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-block: 40px;
+  font-size: 1.2em;
+  gap: 20px;
+}
+
+.doacao-formulario input,
+select {
+  font-size: 1em;
+  padding: 5px;
+}
+
+.doacao-formulario button {
+  background-color: var(--verde-claro);
+  font-size: 1.5em;
+  padding: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.doacao-formulario button:hover {
+  opacity: 90%;
+}
+
+.doacao-formulario > button > a {
+  color: var(--branco);
+  text-decoration: none;
+}
+
+.usu-doacoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-block: 3em;
+}
+
+.usu-doacoes-card {
+  position: relative;
+  width: 250px;
+  border: 1px solid lightgray;
+  box-shadow: 2px -1px 5px 1px rgba(0, 0, 0, 0.137);
+  padding: 10px;
+}
+
+.usu-doacoes-card h3 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.usu-doacoes-card span {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-size: 1.5em;
+}
+
+.usu-doacoes-card hr {
+  margin-block: 15px;
+}
