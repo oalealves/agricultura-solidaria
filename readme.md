@@ -7,4 +7,4 @@ Esse é um protótipo de um site para doar alimentos a pessoas necessitadas dent
 * [giovanaassis](https://github.com/giovanaassis)
 * [oalealves](https://github.com/oalealves)
 
-Deploy: https://giovanaassis.github.io/agricultura-solidaria/src/index.html
+Deploy: https://oalealves.github.io/agricultura-solidaria
